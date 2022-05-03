@@ -1,0 +1,90 @@
+body {
+  background-image: url(img/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header .logo {
+  height: 25px;
+}
+header .icono {
+  border-radius: 55%;
+  margin-right: 15px;
+  font-size: 20px;
+}
+header {
+  display: inline-flex;
+  height: 100px;
+  width: 100vw;
+}
+header nav {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100vw;
+  justify-content: end;
+}
+header nav ul li {
+  display: inline-flex;
+  justify-content: space-around;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+header a {
+  color: black;
+}
+section {
+  display: inline-flex;
+  width: 100vw;
+  height: 400px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section .logo {
+  display: flex;
+  height: 92px;
+  width: 272px;
+  align-items: center;
+}
+section input {
+  border: none;
+  height: 46px;
+  width: 550px;
+  margin-top: 15px;
+  border-radius: 20px;
+}
+section ::placeholder {
+  text-align: center;
+  font-size: 20px;
+}
+section .btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+section .search {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  margin-right: 5px;
+}
+section .lucky {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+footer {
+  display: flex;
+  height: 28vh;
+  align-items: end;
+  justify-content: end;
+}
+footer h6 {
+  display: flex;
+  font-size: 15px;
+}
+footer h6 {
+  background-color: rgba(116, 116, 124, 0.9);
+  color: darkblue;
+}
